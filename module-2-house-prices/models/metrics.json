@@ -1,0 +1,36 @@
+{
+  "linear_regression": {
+    "rmse_log": 0.13183347681331423,
+    "r2_score": 0.8969008731888165,
+    "mae_dollars": 15755.463127302479,
+    "rmse_dollars": 22474.9072300591,
+    "cv_rmse_log": 0.1330544005504884,
+    "training_time_sec": 0.05515122413635254
+  },
+  "ridge": {
+    "rmse_log": 0.13476858263674932,
+    "r2_score": 0.8922590259966273,
+    "mae_dollars": 15554.830804901261,
+    "rmse_dollars": 22257.735360964798,
+    "cv_rmse_log": 0.11643921099231189,
+    "training_time_sec": 0.342090368270874,
+    "best_alpha": 300.0
+  },
+  "lasso": {
+    "rmse_log": 0.12326438094423907,
+    "r2_score": 0.9098680486891535,
+    "mae_dollars": 14312.623571064369,
+    "rmse_dollars": 19838.87115637653,
+    "cv_rmse_log": 0.11407806586501874,
+    "training_time_sec": 1.0882632732391357,
+    "best_alpha": 0.005
+  },
+  "elastic_net": {
+    "rmse_log": 0.1251312315431472,
+    "r2_score": 0.9071172610798937,
+    "mae_dollars": 14373.870500078805,
+    "rmse_dollars": 20105.455080180884,
+    "cv_rmse_log": 0.11393094783860622,
+    "training_time_sec": 1.0321831703186035
+  }
+}
