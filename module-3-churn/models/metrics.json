@@ -6,7 +6,7 @@
     "Recall": 0.7433155080213903,
     "F1": 0.6219239373601789,
     "ROC-AUC": 0.8388126792218865,
-    "Time_sec": 0.45652222633361816
+    "Time_sec": 0.5211987495422363
   },
   "xgboost": {
     "Model": "XGBoost",
@@ -15,7 +15,7 @@
     "Recall": 0.7085561497326203,
     "F1": 0.6127167630057804,
     "ROC-AUC": 0.8262445426128291,
-    "Time_sec": 0.31254148483276367
+    "Time_sec": 0.4500241279602051
   },
   "lightgbm_baseline": {
     "Model": "LightGBM Baseline",
@@ -33,16 +33,16 @@
     "Recall": 0.7433155080213903,
     "F1": 0.610989010989011,
     "ROC-AUC": 0.8408793820558527,
-    "Time_sec": 0.92183518409729
+    "Time_sec": 0.9534618854522705
   },
   "lightgbm_optuna": {
     "Model": "LightGBM (Optuna)",
-    "Accuracy": 0.7437899219304471,
-    "Precision": 0.5111111111111111,
-    "Recall": 0.7994652406417112,
-    "F1": 0.6235662148070907,
-    "ROC-AUC": 0.8467488181043168,
-    "Time_sec": 0.10421442985534668
+    "Accuracy": 0.7423704755145494,
+    "Precision": 0.5093378607809848,
+    "Recall": 0.8021390374331551,
+    "F1": 0.6230529595015576,
+    "ROC-AUC": 0.8460745563047354,
+    "Time_sec": 0.09748458862304688
   },
   "stacking_bonus": {
     "Model": "Stacking (Бонус)",
@@ -51,30 +51,30 @@
     "Recall": 0.56951871657754,
     "F1": 0.6025459688826026,
     "ROC-AUC": 0.8465382727531064,
-    "Time_sec": 7.289434432983398
+    "Time_sec": 8.023290157318115
   },
   "smote_bonus": {
     "Model": "LightGBM + SMOTE (Бонус)",
-    "Accuracy": 0.758694109297374,
-    "Precision": 0.5341365461847389,
-    "Recall": 0.7112299465240641,
-    "F1": 0.6100917431192661,
-    "ROC-AUC": 0.8342504327159058,
-    "Time_sec": 0.11777520179748535
+    "Accuracy": 0.7608232789212207,
+    "Precision": 0.5370741482965932,
+    "Recall": 0.7165775401069518,
+    "F1": 0.6139747995418099,
+    "ROC-AUC": 0.8338706760701645,
+    "Time_sec": 0.11813068389892578
   },
   "best_model": "LightGBM (Optuna)",
-  "best_roc_auc": 0.8467488181043168,
+  "best_roc_auc": 0.8460745563047354,
   "best_params": {
-    "n_estimators": 350,
-    "num_leaves": 35,
+    "n_estimators": 300,
+    "num_leaves": 59,
     "max_depth": 3,
-    "learning_rate": 0.016333623914601823,
-    "subsample": 0.8407889040017732,
-    "colsample_bytree": 0.7354668156594367,
-    "min_child_samples": 41,
-    "reg_alpha": 0.0010361423840620184,
-    "reg_lambda": 1.0321927772309647
+    "learning_rate": 0.017987863473362915,
+    "subsample": 0.6180909155642152,
+    "colsample_bytree": 0.7301321323053057,
+    "min_child_samples": 25,
+    "reg_alpha": 0.01217295809836997,
+    "reg_lambda": 2.0651425578959257
   },
-  "brier_score_raw": 0.16321629982124047,
-  "brier_score_calibrated": 0.1347606316267316
+  "brier_score_raw": 0.16365467129121714,
+  "brier_score_calibrated": 0.13488064181421644
 }
