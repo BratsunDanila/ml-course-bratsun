@@ -12,10 +12,10 @@
 | 1 | module-1-titanic | EDA + бинарная классификация | ✅ Готово | [Открыть](./module-1-titanic/) |
 | 2 | module-2-house-prices | Предобработка + регрессия | ✅ Готово | [Открыть](./module-2-house-prices/) |
 | 3 | module-3-churn | Ансамблевые методы | ✅ Готово | [Открыть](./module-3-churn/) |
-| 4 | module-4-... | ... | ⏳ Ожидается | — |
-| 5 | module-5-... | ... | ⏳ Ожидается | — |
-| 6 | module-6-... | ... | ⏳ Ожидается | — |
-| 7 | module-7-... | ... | ⏳ Ожидается | — |
+| 4 | module-4-features | Инженерия признаков | ✅ Готово | [Открыть](./module-4-features/) |
+| 5 | module-5-timeseries | Временные ряды | ⏳ Ожидается | — |
+| 6 | module-6-neural | Нейросетевые архитектуры | ⏳ Ожидается | — |
+| 7 | module-7-mlops | MLOps и деплой | ⏳ Ожидается | — |
 
 ## 📊 Сводная таблица результатов
 
@@ -24,3 +24,4 @@
 | 1 | Logistic Regression | ROC-AUC = 0.85 (Accuracy = 0.80) | 2026-09-28 |
 | 2 | Lasso ($\alpha=0.005$) | $R^2 = 0.91$ ($RMSE_{log} = 0.1246$) | 13.10.2026 |
 | 3 | LightGBM (Optuna) | ROC-AUC = 0.85 (Recall = 0.78) | 19.10.2026 |
+| 4 | LightGBM (Optuna) | ROC-AUC = 0.93 (Recall = 0.83) | 02.11.2026 |

@@ -1,0 +1,80 @@
+{
+  "random_forest": {
+    "Model": "Random Forest",
+    "Accuracy": 0.8726682887266829,
+    "Precision": 0.5631970260223048,
+    "Recall": 0.7931937172774869,
+    "F1": 0.658695652173913,
+    "ROC-AUC": 0.9248977499974876,
+    "Time_sec": 0.6120402812957764
+  },
+  "xgboost": {
+    "Model": "XGBoost",
+    "Accuracy": 0.8746958637469586,
+    "Precision": 0.571150097465887,
+    "Recall": 0.7670157068062827,
+    "F1": 0.6547486033519553,
+    "ROC-AUC": 0.9255283335510646,
+    "Time_sec": 0.47724270820617676
+  },
+  "lightgbm_baseline": {
+    "Model": "LightGBM",
+    "Accuracy": 0.8714517437145174,
+    "Precision": 0.5602968460111317,
+    "Recall": 0.7905759162303665,
+    "F1": 0.6558089033659066,
+    "ROC-AUC": 0.9276223231602536,
+    "Time_sec": 0.3119473457336426
+  },
+  "catboost": {
+    "Model": "CatBoost",
+    "Accuracy": 0.8678021086780211,
+    "Precision": 0.5512820512820513,
+    "Recall": 0.7879581151832461,
+    "F1": 0.6487068965517241,
+    "ROC-AUC": 0.9276461898684566,
+    "Time_sec": 1.5188822746276855
+  },
+  "lightgbm_optuna": {
+    "Model": "LightGBM (Optuna)",
+    "Accuracy": 0.8714517437145174,
+    "Precision": 0.5573192239858906,
+    "Recall": 0.8272251308900523,
+    "F1": 0.6659641728134879,
+    "ROC-AUC": 0.9335123755162745,
+    "Time_sec": 0.4186699390411377
+  },
+  "stacking_bonus": {
+    "Model": "Stacking (Бонус)",
+    "Accuracy": 0.8641524736415247,
+    "Precision": 0.5396290050590219,
+    "Recall": 0.837696335078534,
+    "F1": 0.6564102564102564,
+    "ROC-AUC": 0.9330161992141571,
+    "Time_sec": 16.69084334373474
+  },
+  "smote_bonus": {
+    "Model": "LightGBM + SMOTE (Бонус)",
+    "Accuracy": 0.8921330089213301,
+    "Precision": 0.632420091324201,
+    "Recall": 0.725130890052356,
+    "F1": 0.675609756097561,
+    "ROC-AUC": 0.9258549306106864,
+    "Time_sec": 0.3640894889831543
+  },
+  "best_model": "LightGBM (Optuna)",
+  "best_roc_auc": 0.9355022630914547,
+  "best_params": {
+    "n_estimators": 250,
+    "num_leaves": 30,
+    "max_depth": 7,
+    "learning_rate": 0.01459007452373112,
+    "subsample": 0.7376433945605655,
+    "colsample_bytree": 0.7599085529881076,
+    "min_child_samples": 29,
+    "reg_alpha": 0.8810003129071791,
+    "reg_lambda": 0.031233177533764304
+  },
+  "brier_score_raw": 0.09758708616307633,
+  "brier_score_calibrated": 0.06927043822669046
+}
